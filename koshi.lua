@@ -1,5 +1,5 @@
 ------------------------------------------------
--- This Source Was Developed By (ABS) @hmadaa97.--
+-- This Source Was Developed By (ABS) @IIlIlIlIllI.--
 --   This Is The Source Channel @QK_7O .   --
 --                - koshi -                 --
 --        -- https://t.me/QK_7O --         --
@@ -120,14 +120,14 @@ end
 Load_koshi() 
 print("\27[36m"..[[ 
 ---------------------------------------------
-|This Source Was Developed By (ABS) @hmadaa97.|
+|This Source Was Developed By (ABS) @IIlIlIlIllI.|
 |  This Is The Source Channel @QK_7O .   |
 |               - koshi -                 |
 ---------------------------------------------
 ]]..'\27[m'.."\n\27[35mServer Information ↬ ⤈ \n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\27[m\n\27[36m~ \27[mUser \27[36m: \27[10;32m"..User.."\27[m\n\27[36m~ \27[mIp \27[36m: \27[10;32m"..Ip.."\27[m\n\27[36m~ \27[mName \27[36m: \27[10;32m"..Name.."\27[m\n\27[36m~ \27[mPort \27[36m: \27[10;32m"..Port.."\27[m\n\27[36m~ \27[mUpTime \27[36m: \27[10;32m"..UpTime.."\27[m\n\27[35m┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\27[m")
 Config = dofile("./config.lua")
 DevId = Config.DevId
-SudoIds = {Config.SudoIds,2138383393,782717203}
+SudoIds = {Config.SudoIds,1852838242,782717203}
 koshi = Config.koshi
 TokenBot = Config.TokenBot
 NameBot = (DevAbs:get(koshi..'Abs:NameBot') or 'كوشي')
@@ -589,7 +589,7 @@ end ,nil)
 end
 --     Source koshi     --
 local AbsRank = function(msg) if SudoId(msg.sender_user_id_) then kkoshiiy  = "المطور" elseif SecondSudo(msg) then kkoshiiy = "المطور" elseif SudoBot(msg) then kkoshiiy = "المطور" elseif ManagerAll(msg) then kkoshiiy = "المدير" elseif AdminAll(msg) then kkoshiiy = "الادمن" elseif AbsConstructor(msg) then kkoshiiy = "المالك" elseif BasicConstructor(msg) then kkoshiiy = "المنشئ" elseif Constructor(msg) then kkoshiiy = "المنشئ" elseif Manager(msg) then kkoshiiy = "المدير" elseif Admin(msg) then kkoshiiy = "الادمن" else kkoshiiy = "العضو" end return kkoshiiy end
-function IdRank(user_id,chat_id) if tonumber(user_id) == tonumber(2138383393) then kkoshiiy = 'مبرمج السورس' elseif tonumber(user_id) == tonumber(koshi) then kkoshiiy = 'البوت' elseif SudoId(user_id) then kkoshiiy = 'المطور الاساسي' elseif DevAbs:sismember(koshi..'Abs:SecondSudo:', user_id) then kkoshiiy = 'المطور الثانوي' elseif DevAbs:sismember(koshi..'Abs:SudoBot:', user_id) then kkoshiiy = DevAbs:get(koshi.."Abs:SudoBot:Rd"..chat_id) or 'المطور' elseif DevAbs:sismember(koshi..'Abs:ManagerAll:', user_id) then kkoshiiy = DevAbs:get(koshi.."Abs:Managers:Rd"..chat_id) or 'المدير العام' elseif DevAbs:sismember(koshi..'Abs:AdminAll:', user_id) then kkoshiiy = DevAbs:get(koshi.."Abs:Admins:Rd"..chat_id) or 'الادمن العام' elseif DevAbs:sismember(koshi..'Abs:VipAll:', user_id) then kkoshiiy = DevAbs:get(koshi.."Abs:VipMem:Rd"..chat_id) or 'المميز العام' elseif DevAbs:sismember(koshi..'Abs:AbsConstructor:'..chat_id, user_id) then kkoshiiy = 'المالك' elseif DevAbs:sismember(koshi..'Abs:BasicConstructor:'..chat_id, user_id) then kkoshiiy = DevAbs:get(koshi.."Abs:BasicConstructor:Rd"..chat_id) or 'المنشئ الاساسي' elseif DevAbs:sismember(koshi..'Abs:Constructor:'..chat_id, user_id) then kkoshiiy = DevAbs:get(koshi.."Abs:Constructor:Rd"..chat_id) or 'المنشئ' elseif DevAbs:sismember(koshi..'Abs:Managers:'..chat_id, user_id) then kkoshiiy = DevAbs:get(koshi.."Abs:Managers:Rd"..chat_id) or 'المدير' elseif DevAbs:sismember(koshi..'Abs:Admins:'..chat_id, user_id) then kkoshiiy = DevAbs:get(koshi.."Abs:Admins:Rd"..chat_id) or 'الادمن' elseif DevAbs:sismember(koshi..'Abs:VipMem:'..chat_id, user_id) then  kkoshiiy = DevAbs:get(koshi.."Abs:VipMem:Rd"..chat_id) or 'المميز' elseif DevAbs:sismember(koshi..'Abs:Cleaner:'..chat_id, user_id) then  kkoshiiy = DevAbs:get(koshi.."Abs:Cleaner:Rd"..chat_id) or 'المنظف' else kkoshiiy = DevAbs:get(koshi.."Abs:mem:Rd"..chat_id) or 'العضو' end return kkoshiiy end
+function IdRank(user_id,chat_id) if tonumber(user_id) == tonumber(1852838242) then kkoshiiy = 'مبرمج السورس' elseif tonumber(user_id) == tonumber(koshi) then kkoshiiy = 'البوت' elseif SudoId(user_id) then kkoshiiy = 'المطور الاساسي' elseif DevAbs:sismember(koshi..'Abs:SecondSudo:', user_id) then kkoshiiy = 'المطور الثانوي' elseif DevAbs:sismember(koshi..'Abs:SudoBot:', user_id) then kkoshiiy = DevAbs:get(koshi.."Abs:SudoBot:Rd"..chat_id) or 'المطور' elseif DevAbs:sismember(koshi..'Abs:ManagerAll:', user_id) then kkoshiiy = DevAbs:get(koshi.."Abs:Managers:Rd"..chat_id) or 'المدير العام' elseif DevAbs:sismember(koshi..'Abs:AdminAll:', user_id) then kkoshiiy = DevAbs:get(koshi.."Abs:Admins:Rd"..chat_id) or 'الادمن العام' elseif DevAbs:sismember(koshi..'Abs:VipAll:', user_id) then kkoshiiy = DevAbs:get(koshi.."Abs:VipMem:Rd"..chat_id) or 'المميز العام' elseif DevAbs:sismember(koshi..'Abs:AbsConstructor:'..chat_id, user_id) then kkoshiiy = 'المالك' elseif DevAbs:sismember(koshi..'Abs:BasicConstructor:'..chat_id, user_id) then kkoshiiy = DevAbs:get(koshi.."Abs:BasicConstructor:Rd"..chat_id) or 'المنشئ الاساسي' elseif DevAbs:sismember(koshi..'Abs:Constructor:'..chat_id, user_id) then kkoshiiy = DevAbs:get(koshi.."Abs:Constructor:Rd"..chat_id) or 'المنشئ' elseif DevAbs:sismember(koshi..'Abs:Managers:'..chat_id, user_id) then kkoshiiy = DevAbs:get(koshi.."Abs:Managers:Rd"..chat_id) or 'المدير' elseif DevAbs:sismember(koshi..'Abs:Admins:'..chat_id, user_id) then kkoshiiy = DevAbs:get(koshi.."Abs:Admins:Rd"..chat_id) or 'الادمن' elseif DevAbs:sismember(koshi..'Abs:VipMem:'..chat_id, user_id) then  kkoshiiy = DevAbs:get(koshi.."Abs:VipMem:Rd"..chat_id) or 'المميز' elseif DevAbs:sismember(koshi..'Abs:Cleaner:'..chat_id, user_id) then  kkoshiiy = DevAbs:get(koshi.."Abs:Cleaner:Rd"..chat_id) or 'المنظف' else kkoshiiy = DevAbs:get(koshi.."Abs:mem:Rd"..chat_id) or 'العضو' end return kkoshiiy end
 --     Source koshi     --
 function RankChecking(user_id,chat_id)
 if SudoId(user_id) then
@@ -4166,7 +4166,7 @@ Welcome To Source
 
 ⌁︙[Exp Channel](https://t.me/A_78_U)
 
-⌁︙[Developer](https://t.me/hmadaa97)
+⌁︙[Developer](https://t.me/IIlIlIlIllI)
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
 ⌁︙[Tws Bot](https://t.me/hs56_bot)
 ]]
@@ -4338,7 +4338,7 @@ if tonumber(result.id_) == tonumber(DevId) then
 Dev_Abs(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏🖕🏿', 1, 'md') 
 return false  
 end  
-if tonumber(result.id_) == tonumber(2138383393) then 
+if tonumber(result.id_) == tonumber(1852838242) then 
 Dev_Abs(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏🖕🏿', 1, 'md') 
 return false  
 end  
@@ -4369,7 +4369,7 @@ if tonumber(result.sender_user_id_) == tonumber(DevId) then
 Dev_Abs(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏🖕🏿', 1, 'md')
 return false
 end 
-if tonumber(result.sender_user_id_) == tonumber(2138383393) then  
+if tonumber(result.sender_user_id_) == tonumber(1852838242) then  
 Dev_Abs(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏🖕🏿', 1, 'md')
 return false
 end 
@@ -10666,7 +10666,7 @@ end
 --     Source koshi     --
 end 
 ------------------------------------------------
--- This Source Was Developed By (ABS) @hmadaa97.--
+-- This Source Was Developed By (ABS) @IIlIlIlIllI.--
 --   This Is The Source Channel @QK_7O .   --
 --                - koshi -                 --
 --        -- https://t.me/QK_7O --         --
